@@ -26,7 +26,7 @@ def flat_generator(lists):
 
     for l in li:
       if li == []:
-        exit()
+        break
       yield (l)
 
 
